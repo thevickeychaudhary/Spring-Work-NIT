@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Jul/2025:12:34:00 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [15/Jul/2025:17:12:04 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:05 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/ HTTP/1.1" 200 4287
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:06 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/eureka/css/wro.css HTTP/1.1" 404 150
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:06 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/eureka/js/wro.js HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:06 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:16 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/ HTTP/1.1" 200 4288
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:16 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/eureka/css/wro.css HTTP/1.1" 404 150
+0:0:0:0:0:0:0:1 - - [15/Jul/2025:17:12:16 +0530] "GET /BootMS-Proj01-RAndServer-Eureka/eureka/js/wro.js HTTP/1.1" 404 148

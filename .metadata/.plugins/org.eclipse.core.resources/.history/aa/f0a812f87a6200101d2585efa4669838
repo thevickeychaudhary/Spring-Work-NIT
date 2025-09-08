@@ -1,0 +1,5 @@
+package com.vc.client;
+
+public class BillingServiceRestConsumer {
+
+}

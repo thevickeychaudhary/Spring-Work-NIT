@@ -1,0 +1,4 @@
+127.0.0.1 - - [13/Jun/2025:17:51:21 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [13/Jun/2025:17:51:22 +0530] "GET /BootMVCProj1-FirstApp/ HTTP/1.1" 404 275
+0:0:0:0:0:0:0:1 - - [13/Jun/2025:17:51:32 +0530] "GET /BootMVCProj1-FirstApphome HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [13/Jun/2025:17:51:43 +0530] "GET /BootMVCProj1-FirstApp/home HTTP/1.1" 200 198
