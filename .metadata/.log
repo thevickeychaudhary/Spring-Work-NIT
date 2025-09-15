@@ -4405,3 +4405,63 @@ java.lang.IllegalStateException: Unexpected null value present!
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-16 01:31:54.043
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.egit.core 4 0 2025-09-16 02:05:30.522
+!MESSAGE An exception occurred during push on URI https://github.com/thevickeychaudhary/Spring-Work-NIT.git: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-09-16 02:05:30.529
+!MESSAGE Can't connect to any repository: https://github.com/thevickeychaudhary/Spring-Work-NIT.git (https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-09-16 02:07:25.327
+!MESSAGE An exception occurred during push on URI https://github.com/thevickeychaudhary/Spring-Work-NIT.git: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-09-16 02:07:43.438
+!MESSAGE An exception occurred during push on URI https://github.com/thevickeychaudhary/Spring-Work-NIT.git: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-09-16 02:08:29.763
+!MESSAGE An exception occurred during push on URI https://github.com/thevickeychaudhary/Spring-Work-NIT.git: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-09-16 02:08:29.763
+!MESSAGE Can't connect to any repository: https://github.com/thevickeychaudhary/Spring-Work-NIT.git (https://github.com/thevickeychaudhary/Spring-Work-NIT.git: not authorized)
